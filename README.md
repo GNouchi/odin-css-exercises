@@ -2,8 +2,9 @@
 
 These exercises consist of a series of CSS-related tasks intended to complement the HTML and CSS content on The Odin Project (TOP).
 
-> [!IMPORTANT]
-> Tl;dr: FORK IT. PUSH TO YOUR OWN THING. DONT BOTHER ME.
+> [!IMPORTANT] 
+> [!Tl;dr: FORK IT. PUSH TO YOUR OWN THING. DONT BOTHER ME.]
+> 
 > We encourage you to practice your git skills by committing your changes and pushing them to your own fork.  However, please **DO NOT** open a Pull Request to have your solutions merged into this repo or to show your solution. 
 
 
