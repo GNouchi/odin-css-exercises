@@ -60,28 +60,24 @@ ul {
   gap:8px;
 
 }
-.header div {
-  background-color: beige;
-  /* display: flex; */
-}
-.links-container{
-display: flex;
-/* align-items: center; */
-/* justify-content: center; */
-/* flex-direction: row wrap; */
 
-}
-.links, .end-container{
+.links{
   display: flex;
   padding: 0;
   margin-left: 8px;
   gap: 8px;
+  /* prevent links from collapsing */
+  flex-shrink: 0;
 }
-/* see above css rule if spacing is wonky */
 .end-container{
+  display: flex;
   flex: 1;
   justify-content: flex-end;
+  gap: 8px;
 }
+/* centered contents of img */
 .profile-image{
-  margin-left: 8px;  
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
