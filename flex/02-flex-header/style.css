@@ -36,12 +36,6 @@ align-items: center;
 justify-content: space-between;
 }
 
-/* space containers insead of header evenly */
-.left-links, .right-links, .logo
-{
-  justify-content: space-between;
-}
-
 
 .left-links ul, .right-links ul{
   display: flex;
