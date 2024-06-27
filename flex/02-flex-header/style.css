@@ -1,3 +1,9 @@
+/* remove html defaults */
+body{
+  padding:0px;
+  margin: 0px;;
+}
+
 .header  {
   font-family: monospace;
 /* for alignment */
@@ -14,10 +20,10 @@
 
 ul {
   list-style-type: none;
-  /* for alignment */
-  /* background: black; */
 /* removed padding from ul */
   padding: 0px;
+/* gap between items in UL's */
+  gap: 8px;
 }
 
 a {
@@ -31,6 +37,8 @@ a {
 /* .header, .logo, .right-links, .left-links */
 .header
 {
+  /* padding inside border of header container */
+padding: 8px;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -39,5 +47,4 @@ justify-content: space-between;
 
 .left-links ul, .right-links ul{
   display: flex;
-   align-items: space-between;
 }
