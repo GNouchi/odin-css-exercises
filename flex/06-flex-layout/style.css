@@ -3,7 +3,6 @@
 body {
   height: 100vh;
   margin: 0;
-  padding: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
@@ -27,12 +26,18 @@ input {
 }
 
 /* solution here  */
+body{
+  display: flex;
+  flex-direction:column ;
+}
 
 ul{
   display: flex;
-  padding: 0;
   list-style-type: none;
-  background-color: rgb(236, 135, 135);
+  padding: 0;
+  margin:0;
+  gap: 16px;
+
 }
 a{
   color: black;
@@ -42,33 +47,23 @@ a{
 , .footer{
   display: flex;
   justify-content: space-between;
-  padding: 6px;
+  padding: 16px;
 }
-.left-links, .right-links{
-  gap: 14px;
-}
-.header{
-}
+
 .content{  
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.buttons{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 28px;
-  gap: 16px;
-}
+
 
 .buttons button{
-  padding: 8px;
+  padding: 8px 16px;
 }
 
 .footer{
-  display: flex;
-  align-items: flex-end;  
   background-color: #eeeeee;
 }
   
