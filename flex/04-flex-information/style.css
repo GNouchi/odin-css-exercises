@@ -31,14 +31,13 @@ img {
 .title-div{
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 .img-container{
-  margin-top: 32px;
   display: flex;
   justify-content: center;
   gap:52px;
-  background: lightcoral;
 }
 .img-card{
   max-width: 200px;
