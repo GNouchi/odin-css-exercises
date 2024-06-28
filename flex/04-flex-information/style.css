@@ -1,4 +1,6 @@
 body {
+  padding:0;
+  margin:0;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -7,7 +9,7 @@ img {
   height: 100px;
 }
 
-.title {
+.title-div {
   font-size: 36px;
   font-weight: 900;
 }
@@ -24,3 +26,26 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* style adjustments below */
+.title-div{
+  display: flex;
+  justify-content: center;
+}
+
+.img-container{
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap:52px;
+  background: lightcoral;
+}
+.img-card{
+  max-width: 200px;
+  text-align: center;
+}
+
+/* .barberry-card{}
+.chili-card{}
+.pepper-card{}
+.saffron-card{} */
